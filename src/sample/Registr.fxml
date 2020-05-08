@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.RegistrationController">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="600.0" layoutX="-2.0" layoutY="-1.0">
+         <image>
+            <Image url="@../Image/Иаваскрипт.jpg" />
+         </image>
+      </ImageView>
+      <Label fx:id="registrLabel" layoutX="178.0" layoutY="12.0" prefHeight="27.0" prefWidth="151.0" text="                 Registration">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <TextField id="loginfield" fx:id="loginField" layoutX="203.0" layoutY="46.0" promptText="Enter your login" />
+      <Label layoutX="414.0" layoutY="155.0" prefHeight="27.0" prefWidth="151.0" />
+      <Button fx:id="Registrbutton" layoutX="212.0" layoutY="363.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="111.0" text="Registration" />
+      <Button fx:id="Exitbutton" layoutX="359.0" layoutY="363.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="111.0" text="Exit" />
+      <ChoiceBox fx:id="ChoiceBoxRegion" layoutX="203.0" layoutY="151.0" prefWidth="150.0" />
+      <PasswordField fx:id="passwrodField" layoutX="203.0" layoutY="90.0" promptText="Enter your password" />
+      <TextField fx:id="numberPhoneField" layoutX="204.0" layoutY="263.0" promptText="Enter your numberPhone" />
+      <ChoiceBox fx:id="ChoiceBoxNumberPhone" layoutX="203.0" layoutY="209.0" prefWidth="150.0" />
+      <Label fx:id="loginLabel" layoutX="127.0" layoutY="50.0" prefHeight="17.0" prefWidth="44.0" text="Login:" textFill="#8a1c1c" />
+      <Label fx:id="PasswordLabel" layoutX="125.0" layoutY="102.0" text="Password:" textFill="#cd1010" />
+      <Label />
+      <Label fx:id="RegionLabel" layoutX="77.0" layoutY="155.0" text="Choice your region:" textFill="#8a1d1d" />
+      <Label fx:id="OperatorLabel" layoutX="118.0" layoutY="217.0" text="Operator:" textFill="#e80d0d" />
+      <Label fx:id="NumberPhoneLabel" layoutX="89.0" layoutY="267.0" text="NumberPhone:" textFill="#6f0a0a" />
+      <DatePicker fx:id="Date" layoutX="92.0" layoutY="363.0" prefHeight="25.0" prefWidth="104.0" />
+      <Label fx:id="DateLabel" layoutX="39.0" layoutY="367.0" prefHeight="17.0" prefWidth="35.0" text="Date:" textFill="#b22020" />
+      <Label fx:id="answerLabel" layoutX="74.0" layoutY="317.0" text="Your best friend:" textFill="#c60a23" />
+      <TextField fx:id="answerField" layoutX="204.0" layoutY="313.0" prefHeight="25.0" prefWidth="149.0" promptText="Your best friend" />
+      <Button fx:id="employeeButton" layoutX="528.0" layoutY="46.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="70.0" text="employee" />
+      <Label fx:id="employelabel" layoutX="369.0" layoutY="50.0" prefHeight="17.0" prefWidth="149.0" text="If you employee then follow" textFill="#941212" />
+   </children>
+</AnchorPane>

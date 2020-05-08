@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="sample.Controller">
+   <children>
+      <ImageView fx:id="imgbank" fitHeight="400.0" fitWidth="600.0" layoutX="-1.0">
+         <image>
+            <Image url="@../Image/загружено.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="exitButton" layoutX="251.0" layoutY="299.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="115.0" text="Exit" />
+      <Button fx:id="registrButton" layoutX="251.0" layoutY="200.0" mnemonicParsing="false" prefHeight="45.0" prefWidth="115.0" text="Registr" />
+      <Button fx:id="loginbutton" layoutX="251.0" layoutY="99.0" mnemonicParsing="false" prefHeight="52.0" prefWidth="115.0" text="Login" />
+   </children>
+</AnchorPane>
